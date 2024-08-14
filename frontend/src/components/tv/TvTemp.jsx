@@ -2,7 +2,7 @@ import React from 'react';
 import './TV.css'; // Import the corresponding CSS file
 import GridControl from '../GridControl'; // Adjust the path if necessary
 
-const TV = () => {
+const TvTemp = () => {
 
   return (
     <div className="tv-container">
@@ -29,4 +29,4 @@ const TV = () => {
   );
 };
 
-export default TV;
+export default TvTemp;

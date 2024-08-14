@@ -1,6 +1,5 @@
 import React from 'react'
-import GridControl from './components/GridControl'
-import TV from './components/tv/Tv'
+import TvTemp from './components/tv/TvTemp'
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import CardLayout from './components/cardlayout/CardLayout'
@@ -9,7 +8,7 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      <TV/>
+      <TvTemp/>
       <CardLayout/>
       <Footer/>
       
