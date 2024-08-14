@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import GridLayout from './gridlayout/GridLayout';
 import { letterPatterns } from '../utils/letterPatterns'; // Ensure this path is correct
-import './GridControl.css'; // If you have specific styles for GridControl
+import './gridcontrol.css'; // If you have specific styles for GridControl
 
 const GridControl = () => {
   const rows = 20;
