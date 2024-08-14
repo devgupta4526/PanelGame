@@ -1,0 +1,49 @@
+/* CardLayout.css */
+
+.card-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+    background-color: #190e28; /* Matches the overall theme */
+  }
+  
+  .card {
+    background: #222; /* Dark background for the cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 2px solid white
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-family: 'Lobster', cursive; /* Matches the theme font */
+    font-size: 1.5em;
+    color: #00ffcc; /* Neon color for the title */
+    margin: 0;
+    text-align: center;
+  }
+  
+  .card-description {
+    text-align: center;
+    color: #A3A7AB; /* Matches the button color on the TV remote */
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,137 @@
+body {
+    padding-top: 3px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #000;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+  }
+  
+  .tv-container {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    background-color: #190e28;
+    padding-top: 20px;
+  }
+  
+  .title {
+    font-size: 38px;
+    color: #fff;
+    margin: 20px auto 0 auto;
+  }
+  
+  .tv-block {
+    position: relative;
+    width: 1300px;
+    height: 540px;
+    margin: 0 auto;
+    background-color: #000;
+    border-radius: 5px;
+    border-bottom: 2px solid #000;
+    box-shadow: 0 1px 5px #6D6D6D, inset 0px 1px 2px #E2E3E4;
+  }
+  
+  .tv-screen-frame {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    box-shadow: inset 0px 1px 2px #E2E3E4, 0px 1px 1px rgba(0, 0, 0, 0.3);
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 1220px;
+    height: 480px;
+  }
+  
+  .tv-screen {
+    width: 1200px;
+    height: 480px;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    position: absolute;
+    top: 1px;
+    left: 10px;
+    overflow: hidden;
+  }
+  
+  .tv-controls {
+    background: #3C3E41;
+    background: -webkit-repeating-linear-gradient(-90deg, #313335, #313335 3px, #3D4043 5px);
+    background: -moz-repeating-linear-gradient(-90deg, #313335, #313335 3px, #3D4043 5px);
+    background: -o-repeating-linear-gradient(-90deg, #313335, #313335 3px, #3D4043 5px);
+    background: repeating-linear-gradient(-90deg, #313335, #313335 3px, #3D4043 5px);
+    background-size: 100% 5px;
+    width: 60px;
+    height: 500px;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    box-shadow: inset 0px 1px 2px #E2E3E4, 0px 1px 1px rgba(0, 0, 0, 0.3);
+    border: 1px solid #333;
+    border-radius: 5px;
+  }
+  
+  .tv-controls .buttons {
+    position: absolute;
+    bottom: 20px; /* Adjust based on your design */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .tv-controls .buttons .button {
+    border-radius: 100px;
+    width: 15px;
+    height: 15px;
+    background: #A3A7AB;
+    display: inline-block;
+    box-shadow: inset 0px 1px 2px #333;
+    border: 1px solid #333;
+  }
+  
+  .tv-controls .buttons .button:nth-child(1) {
+    margin-right: 5px;
+  }
+  
+  .tv-controls .buttons .button:before {
+    content: '';
+    border-radius: 100px;
+    padding: 5px;
+    margin-top: 2px;
+    margin-left: -6px;
+    position: absolute;
+    background: #A5A9AD;
+    box-shadow: inset 0px 0px 7px #333;
+    border: 1px solid #303030;
+  }
+  
+  .tv-bottom {
+    width: 280px;
+    height: 15px;
+    background: #2A2C2E;
+    margin: 0 auto;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid #2A2C2E;
+  }
+  
+  .container-shadow {
+    width: 140px;
+    height: 20px;
+    z-index: -1;
+    position: relative;
+    margin: 0 auto;
+    top: -25px;
+    box-shadow: 0 15px 5px -5px #6D6D6D;
+  }
+  

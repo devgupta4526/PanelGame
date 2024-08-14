@@ -1,0 +1,41 @@
+.navbar {
+  background: #190e28; /* Matches the TV and remote background */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px #211138;
+}
+
+.logo {
+  color: #fff; /* White text to match the TV text */
+  font-size: 2em;
+  font-family: 'Lobster', cursive;
+  text-shadow: 2px 2px 5px #00ffcc; /* Neon glow effect */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px; /* Slightly larger spacing for a retro feel */
+}
+
+.nav-links a {
+  color: #A3A7AB; /* Matches the button color on the TV remote */
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background: #313335; /* Same as the TV controls background */
+  box-shadow: inset 0px 1px 3px #111, 0px 1px 3px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+  background: #4a4d50; /* Darkens slightly on hover */
+  color: #00ffcc; /* Neon effect on hover */
+}
+
+.nav-links a:active {
+  box-shadow: inset 0px 2px 5px #111, 0px 2px 5px rgba(0, 0, 0, 0.7);
+}

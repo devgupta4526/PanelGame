@@ -1,0 +1,20 @@
+.control-panel {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.control-panel label {
+    color: white;
+    margin-right: 15px;
+}
+
+.control-panel input[type="color"],
+.control-panel input[type="range"],
+.control-panel input[type="text"] {
+    margin-left: 10px;
+}

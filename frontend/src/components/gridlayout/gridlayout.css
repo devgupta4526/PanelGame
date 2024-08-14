@@ -1,0 +1,27 @@
+/* src/components/Grid.css */
+.grid {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    background-color: #111;
+    border: 5px solid cyan;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
